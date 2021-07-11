@@ -1,0 +1,151 @@
+@import url('https://fonts.googleapis.com/css2?family=Lato&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans&display=swap');
+p {
+    font-size: 14pt;
+    }
+    
+    .no-overflow li {
+    font-size: 14pt;
+    }
+    
+    h2 {
+    font-size: 22pt;
+    /*font-family: Georgia, serif;*/
+    font-family: 'Open Sans', sans-serif;
+    text-transform: uppercase;
+    font-weight: 600;
+    color: #213c9d;
+    }
+    
+    h3 {
+    font-weight: 600;
+/*    font-family: Georgia, serif; */
+    font-family: 'Open Sans', sans-serif;
+text-transform: uppercase;
+    font-size: 18pt;
+    }
+    
+    .no-overflow h3 {
+    font-size: 18pt;
+    color: #006776;
+    font-weight: 600;
+   /*    font-family: Georgia, serif; */
+    font-family: 'Open Sans', sans-serif;
+text-transform: uppercase;
+    }
+    
+    h4 {
+    font-size: 14pt;
+    color: #006776;
+    font-weight: 600;
+  /*    font-family: Georgia, serif; */
+    font-family: 'Open Sans', sans-serif;
+    }
+    
+    .box
+    {
+    font-family: Lato;
+    }
+    
+    .no-overflow a {
+     text-decoration: underline;
+    }
+
+.objective:hover {
+  background-color: lightsalmon;
+padding: 10px;
+border-radius: 5px;
+}
+    
+    .tile {
+    height: 200px;
+    padding: 15px 0; 
+    border: 1px solid black; 
+    width: 20%;
+    font-size: 14pt;
+    }
+
+.topic1:hover {
+background-color: #2a4d53;
+color: white;
+}    
+
+    .topic1{
+    background-color: #d1e8ec;
+    color: black;
+    }
+
+.topic2 {
+background-color: #c3d7c1;
+}
+.topic2:hover{
+background-color: #446640;
+color: white;
+}
+
+.topic3:hover {
+background-color: #7b4b22;
+color: white;
+}    
+
+.topic3{
+    background-color: sandybrown;
+}
+
+.topic4 {
+background-color: #ffeb81;
+}
+
+.topic4:hover {
+background-color:#7e6a02;
+color:white;
+}
+    
+    .atto_image_button_text-bottom{
+    margin: 0px;
+    }
+    
+    .NPA-container {
+    width: 1000px;
+    }
+    
+    table {font-size: 14pt;}
+    
+    th {
+    background-color: #00788a;
+    color: white;
+    }
+    
+ 
+    
+  
+    /*
+    .no-overflow 
+    {
+    background-image: url("https://npabushwalking.moodlecloud.com/pluginfile.php/190/mod_resource/content/3/forest-border-preview.png");
+    background-size: cover; 
+    }*/
+    
+    .activity-navigation #prev-activity-link, .activity-navigation #next-activity-link {
+        font-family: Georgia, serif;
+        font-weight: 600;
+        color: #213c9d;
+        background-color: white;
+        border: 1px solid black;
+    }
+    
+    #page-header .card-body {
+    background-color: skyblue;
+    }
+    
+    .card-body h1 {color: white;}
+    
+    #page-content #region-main {
+    border-color: skyblue;
+    border-width: 2px;
+    background-image: url("https://npabushwalking.moodlecloud.com/pluginfile.php/190/mod_resource/content/5/forest-border-preview-edit.png");
+    background-size: cover; 
+background-position: bottom;
+    }
+    
+    img {border-radius: 5px;}
