@@ -1,151 +1,229 @@
-@import url('https://fonts.googleapis.com/css2?family=Lato&display=swap');
-@import url('https://fonts.googleapis.com/css2?family=Open+Sans&display=swap');
+@import url("https://fonts.googleapis.com/css2?family=Lato&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Open+Sans&display=swap");
+
 p {
-    font-size: 14pt;
-    }
-    
-    .no-overflow li {
-    font-size: 14pt;
-    }
-    
-    h2 {
-    font-size: 22pt;
-    /*font-family: Georgia, serif;*/
-    font-family: 'Open Sans', sans-serif;
-    text-transform: uppercase;
-    font-weight: 600;
-    color: #213c9d;
-    }
-    
-    h3 {
-    font-weight: 600;
-/*    font-family: Georgia, serif; */
-    font-family: 'Open Sans', sans-serif;
-text-transform: uppercase;
-    font-size: 18pt;
-    }
-    
-    .no-overflow h3 {
-    font-size: 18pt;
-    color: #006776;
-    font-weight: 600;
-   /*    font-family: Georgia, serif; */
-    font-family: 'Open Sans', sans-serif;
-text-transform: uppercase;
-    }
-    
-    h4 {
-    font-size: 14pt;
-    color: #006776;
-    font-weight: 600;
-  /*    font-family: Georgia, serif; */
-    font-family: 'Open Sans', sans-serif;
-    }
-    
-    .box
-    {
-    font-family: Lato;
-    }
-    
-    .no-overflow a {
-     text-decoration: underline;
-    }
+  font-size: 14pt;
+}
+
+.no-overflow li {
+  font-size: 14pt;
+}
+
+h2 {
+  font-size: 22pt;
+  font-family: "Open Sans", sans-serif;
+  text-transform: uppercase;
+  font-weight: 600;
+  color: #213c9d;
+}
+
+h3 {
+  font-weight: 600;
+  font-family: "Open Sans", sans-serif;
+  text-transform: uppercase;
+  font-size: 18pt;
+}
+
+.no-overflow h3 {
+  font-size: 18pt;
+  color: #006776;
+  font-weight: 600;
+  font-family: "Open Sans", sans-serif;
+  text-transform: uppercase;
+}
+
+h4 {
+  font-size: 14pt;
+  color: #006776;
+  font-weight: 600;
+  font-family: "Open Sans", sans-serif;
+}
+
+.box {
+  font-family: Lato;
+}
+
+.no-overflow a {
+  text-decoration: underline;
+}
 
 .objective:hover {
   background-color: lightsalmon;
-padding: 10px;
-border-radius: 5px;
+  padding: 10px;
+  border-radius: 5px;
 }
-    
-    .tile {
-    height: 200px;
-    padding: 15px 0; 
-    border: 1px solid black; 
-    width: 20%;
-    font-size: 14pt;
-    }
+
+.tile {
+  height: 200px;
+  padding: 15px 0;
+  border: 1px solid black;
+  width: 20%;
+  font-size: 14pt;
+}
+
+.topic1 {
+  background-color: #d1e8ec;
+  color: black;
+}
 
 .topic1:hover {
-background-color: #2a4d53;
-color: white;
-}    
-
-    .topic1{
-    background-color: #d1e8ec;
-    color: black;
-    }
+  background-color: #2a4d53;
+  color: white;
+}
 
 .topic2 {
-background-color: #c3d7c1;
+  background-color: #c3d7c1;
 }
-.topic2:hover{
-background-color: #446640;
-color: white;
+
+.topic2:hover {
+  background-color: #446640;
+  color: white;
+}
+
+.topic3 {
+  background-color: sandybrown;
 }
 
 .topic3:hover {
-background-color: #7b4b22;
-color: white;
-}    
-
-.topic3{
-    background-color: sandybrown;
+  background-color: #7b4b22;
+  color: white;
 }
 
 .topic4 {
-background-color: #ffeb81;
+  background-color: #ffeb81;
 }
 
 .topic4:hover {
-background-color:#7e6a02;
-color:white;
+  background-color: #7e6a02;
+  color: white;
 }
-    
-    .atto_image_button_text-bottom{
-    margin: 0px;
-    }
-    
-    .NPA-container {
-    width: 1000px;
-    }
-    
-    table {font-size: 14pt;}
-    
-    th {
-    background-color: #00788a;
-    color: white;
-    }
-    
- 
-    
-  
-    /*
-    .no-overflow 
-    {
-    background-image: url("https://npabushwalking.moodlecloud.com/pluginfile.php/190/mod_resource/content/3/forest-border-preview.png");
-    background-size: cover; 
-    }*/
-    
-    .activity-navigation #prev-activity-link, .activity-navigation #next-activity-link {
-        font-family: Georgia, serif;
-        font-weight: 600;
-        color: #213c9d;
-        background-color: white;
-        border: 1px solid black;
-    }
-    
-    #page-header .card-body {
-    background-color: skyblue;
-    }
-    
-    .card-body h1 {color: white;}
-    
-    #page-content #region-main {
-    border-color: skyblue;
-    border-width: 2px;
-    background-image: url("https://npabushwalking.moodlecloud.com/pluginfile.php/190/mod_resource/content/5/forest-border-preview-edit.png");
-    background-size: cover; 
-background-position: bottom;
-    }
-    
-    img {border-radius: 5px;}
+
+.atto_image_button_text-bottom {
+  margin: 0px;
+}
+
+.NPA-container {
+  width: 1000px;
+}
+
+table {
+  font-size: 14pt;
+}
+
+th {
+  background-color: #00788a;
+  color: white;
+}
+
+.activity-navigation #prev-activity-link,
+.activity-navigation #next-activity-link {
+  font-family: Georgia, serif;
+  font-weight: 600;
+  color: #213c9d;
+  background-color: white;
+  border: 1px solid black;
+}
+
+#page-header .card-body {
+  background-color: skyblue;
+}
+
+.card-body h1 {
+  color: white;
+}
+
+#page-content #region-main {
+  border-color: skyblue;
+  border-width: 2px;
+  background-image: url("https://npabushwalking.moodlecloud.com/pluginfile.php/190/mod_resource/content/5/forest-border-preview-edit.png");
+  background-size: cover;
+  background-position: bottom;
+}
+
+img {
+  border-radius: 5px;
+}
+
+#next-activity-link:after {
+  content: url("https://npabushwalking.moodlecloud.com/pluginfile.php/164/mod_page/content/25/footprints.png");
+  vertical-align: middle;
+}
+
+/*accordion ------------------------------------------------------*/
+/* Style the buttons that are used to open and close the accordion panel */
+.accordion {
+  background-color: #eee;
+  color: #444;
+  cursor: pointer;
+  padding: 18px;
+  width: 100%;
+  text-align: left;
+  border: none;
+  outline: none;
+  transition: 0.4s;
+}
+
+/* Add a background color to the button if it is clicked on (add the .active class with JS), and when you move the mouse over it (hover) */
+.active,
+.accordion:hover {
+  background-color: #ccc;
+}
+
+/* Style the accordion panel. Note: hidden by default */
+.panel {
+  padding: 0 18px;
+  background-color: white;
+  display: none;
+  overflow: hidden;
+}
+
+/*block quotes -------------------------------------------------------------*/
+@import url("https://fonts.googleapis.com/css2?family=Special+Elite");
+
+.quote {
+  font-family: "Special Elite", cursive;
+  background: #fffdf5;
+  color: #3f3f5a;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  height: 100%;
+  margin: 0;
+}
+
+blockquote {
+  font-weight: 100;
+  font-size: 2rem;
+  max-width: 700px;
+  line-height: 1.4;
+  position: relative;
+  margin: 0;
+  padding: 0.5rem;
+}
+
+blockquote:before,
+blockquote:after {
+  position: absolute;
+  color: #f1efe6;
+  font-size: 8rem;
+  width: 4rem;
+  height: 4rem;
+}
+
+blockquote:before {
+  content: "“";
+  left: -5rem;
+  top: -2rem;
+}
+
+blockquote:after {
+  content: "”";
+  right: -5rem;
+  bottom: 1rem;
+}
+
+cite {
+  line-height: 3;
+  text-align: left;
+}
